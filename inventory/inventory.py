@@ -44,5 +44,4 @@ class Inventory:
             reader = csv.DictReader(file)
             self.items = [Item(row['name'], float(row['price']), int(row['quantity'])) for row in reader]
 
-
-#life is a journey
+# Learning is a journey
