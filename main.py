@@ -6,6 +6,7 @@ def main():
     inventory.add_item(Item("Laptop", 1000, 5))
     inventory.add_item(Item("Mouse", 20, 10))
     inventory.add_item(Item("Keyboard", 50, 8))
+    # print(inventory.items)
 
 
     inventory.save_to_json("data/inventory.json")
