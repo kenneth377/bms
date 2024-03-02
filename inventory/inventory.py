@@ -43,3 +43,6 @@ class Inventory:
         with open(filename, 'r') as file:
             reader = csv.DictReader(file)
             self.items = [Item(row['name'], float(row['price']), int(row['quantity'])) for row in reader]
+
+
+# Learning is a journey
